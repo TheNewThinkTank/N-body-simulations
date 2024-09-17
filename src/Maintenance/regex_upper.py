@@ -64,7 +64,6 @@ s10 = "ax10.plot(data[:, 0], data[:, 1], color = 'Orange',ls = '--',lw=2,ms=7)"
 
 pattern_1 = re.compile(r"'\w'\s*,\s*ls\s*=\s*'")
 sub_pattern = re.compile(r"'\s*,\s*ls\s*=\s*'")
-
 # res = pattern.findall()
 
 

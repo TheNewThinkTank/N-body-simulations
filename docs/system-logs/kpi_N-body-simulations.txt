@@ -1,0 +1,69 @@
+---------------------------------------------------------------------------
+
+
+ ********	Logging timestamp:	2024-09-17 22:52:08.702448	********
+
+
+Module name 			 Number of lines 	 PEP-8 violations
+
+master_thesis.tar.gz                    114249                     0
+calculated_data.tar.gz                  2454                     0
+README.md                                31                      0
+pyproject.toml                           22                      0
+.gitignore                               1                       0
+
+
+**************	Python scripts:	5	**************
+
+
+**************	PEP8 violations:	0	**************
+
+
+**************	Total code-lines:	116757	**************
+
+---------------------------------------------------------------------------
+
+
+********	Logging timestamp:	2024-09-17 23:05:16.834359	********
+
+
+Module name 			 Number of lines 	 PEP-8 violations
+
+master_thesis.tar.gz                    114249                     0
+calculated_data.tar.gz                  2454                     0
+README.md                                31                      0
+pyproject.toml                           22                      0
+.gitignore                               1                       0
+
+
+**************	Python scripts:	5	**************
+
+
+**************	PEP8 violations:	0	**************
+
+
+**************	Total code-lines:	116757	**************
+
+---------------------------------------------------------------------------
+
+
+********	Logging timestamp:	2024-09-17 23:06:22.488798	********
+
+
+Module name 			 Number of lines 	 PEP-8 violations
+
+---------------------------------------------------------------------------
+
+
+********	Logging timestamp:	2024-09-17 23:07:01.880795	********
+
+
+Module name 			 Number of lines 	 PEP-8 violations
+
+
+
+**************	Python scripts:	5	**************
+
+
+**************	Total code-lines:	116757	**************
+
