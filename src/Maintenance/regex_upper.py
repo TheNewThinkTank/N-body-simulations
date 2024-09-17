@@ -1,12 +1,11 @@
 
 import re
-# import matplotlib.pyplot as plt
 
 
 def regex_underscore(s):
-    p = '(\w*)'
+    p = r'(\w*)'
     for i in range(s.count('_')):
-        p += '(_[-\w\.]*)'
+        p += r'(_[-\w\.]*)'  # '([a-zA-Z]+_)'
     return p
 
 
@@ -23,17 +22,8 @@ def repl_upper(m):
 def regex_sub_upper(s):
     return re.sub(regex_underscore(s), repl_upper, s)
 
-# ----------------------------------------------------------------
-
 
 '''
-def regex_letter_underscore(s):
-    p = '(\w*)'
-    for i in range(s.count('_')):
-        p += '([a-zA-Z]+_)'
-    return p
-
-
 def repl_remove_trailing_underscore(m):
     groupLst = []
     for i in range(1, len(m.groups())):
@@ -76,14 +66,6 @@ pattern_1 = re.compile(r"'\w'\s*,\s*ls\s*=\s*'")
 sub_pattern = re.compile(r"'\s*,\s*ls\s*=\s*'")
 
 # res = pattern.findall()
-
-'''
-x = [2, 4, 6, 8, 10]
-y = [4, 16, 36, 64, 100]
-# plt.plot(x, y, color="Brown", ls=':')
-plt.plot(x, y, "Brown", ls=":")
-plt.show()
-'''
 
 
 def main():
