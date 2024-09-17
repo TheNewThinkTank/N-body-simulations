@@ -69,25 +69,7 @@ with open(logfile, "a") as wf:
         wf.write(res_str + "\n")
 
     wf.write(
-        "\n\n"
-        + "*" * 14
-        + f"   Number of Python scripts: \t{file_count}      "
-        + "*" * 14
-        + "\n"
-    )
-
-    wf.write(
-        "\n"
-        + "*" * 14
-        + f"   Total number of PEP8 violations: \t{total_pep8_count}   "
-        + "*" * 14
-        + "\n"
-    )
-
-    wf.write(
-        "\n"
-        + "*" * 14
-        + f"   Total number of code-lines: \t{total_line_count}   "
-        + "*" * 14
-        + "\n\n"
+        f"\n\n{'*'*14}\tPython scripts:\t{file_count}\t{'*'*14}\n"
+        f"\n\n{'*'*14}\tPEP8 violations:\t{total_pep8_count}\t{'*'*14}\n"
+        f"\n\n{'*'*14}\tTotal code-lines:\t{total_line_count}\t{'*'*14}\n\n"
     )

@@ -25,7 +25,7 @@ nosync_path = user_path + "nosync/RunGadget/"
 test_path = "G_HQ_1000000_test/output/"
 Filename = GADGET_G_path + test_path + "HQ10000_G1.0_0_000.hdf5"
 SnapshotFile = h5py.File(Filename, "r")
-F = "test" + Filename[len(GADGET_G_path + test_path) : -5]
+F = "test" + Filename[len(GADGET_G_path + test_path):-5]
 
 IC_R_middle = 0
 gamma = -1.5
